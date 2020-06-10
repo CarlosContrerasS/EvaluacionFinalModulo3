@@ -1,0 +1,285 @@
+/* header*/
+.header-int{
+    background: #654594;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #654594, #c92b87);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #654594, #c92b87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    margin: 0px 0px;
+    padding: 1px 0px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 100%;
+    text-align: center;
+    color: mintcream;
+}
+header{
+    background: #654594;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #654594, #c92b87);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #654594, #c92b87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    margin: 0px 0px;
+    padding: 1px 0px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 200%;
+    text-align: center;
+    color: mintcream;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: end;
+    color: #232323;
+    margin: 10px 0px;
+}
+.link-nav{
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    font-weight: 500;
+    color: #654594;
+    margin: 10px 0px;
+}
+.link-actual-nav{
+    background-color: antiquewhite;
+    margin: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: end;
+} 
+a:hover{
+    background-color: #654594 ;
+    color: antiquewhite;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+html {
+    background-color: #F9F2F6;
+}
+
+/* main index*/
+.con_integrante{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.integrante{
+    color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    float: left;
+
+}
+
+.integrante h1{
+    font-weight: 500;
+    font-family: 'Rock Salt', cursive;
+    font-size: 90%;
+}
+.integrante h3{
+    font-weight: 300;
+    font-size: 80%;
+    margin: -2% 0% 0% 0%;
+}
+
+.integrante p{
+    font-weight: 400;
+    text-align: justify;
+    margin: 2% 0% 5% 0%;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main paginas auxiliares*/
+main p{
+    text-align: justify;
+    margin: 2% 0% 5% 0%;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+    float:right;
+  
+}
+main ul{
+    margin: 2% 0% 5% 5%;
+    font-family: 'Montserrat', sans-serif;
+    float:left;
+}
+
+.div-text h1{
+    text-align: center;
+    float:left;
+}
+
+.cont-div{
+    margin-top: 20px;
+}
+.aside{
+    height: auto;
+    float: left;
+}
+
+.aside-img {
+    height: auto;
+    width: 80%;
+    float: right;
+}
+
+.reoutfit{
+    font-family: 'Rock Salt', cursive;
+    color: #0f0606;
+    text-align: center;
+}
+/*Footer*/
+
+.wave {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+footer h4{
+    background-color: #654594;
+    color: aliceblue;
+    margin: 0%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+@media only screen and (min-width: 100px)  and (max-width: 555px) {
+  /* For mobile phones: */  
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .integrante img{
+        width: 40%;
+        height: auto;
+     }
+     .div-texto{
+        font-size: 90%;
+    }
+    .reoutfit{
+        font-size: 120%;
+        display:flex;
+    }
+}
+
+@media only screen and (min-width: 556px)  and (max-width: 800px) {
+   /* For tablets: */
+      .col-l-1 {width: 8.33%;}
+      .col-l-2 {width: 16.66%;}
+      .col-l-3 {width: 25%;}
+      .col-l-4 {width: 33.33%;}
+      .col-l-5 {width: 41.66%;}
+      .col-l-6 {width: 50%;}
+      .col-l-7 {width: 58.33%;}
+      .col-l-8 {width: 66.66%;}
+      .col-l-9 {width: 75%;}
+      .col-l-10 {width: 83.33%;}
+      .col-l-11 {width: 91.66%;}
+      .col-l-12 {width: 100%;}
+      .cont-div{
+        display:flex;
+    }
+    .con_integrante{
+        display:flex;
+    }
+    
+    .integrante p{
+        font-size: 80%;
+    }
+    .integrante img{
+        width: 50%;
+        height: auto;
+     }
+     .div-texto{
+        font-size: 100%;
+    }
+    .reoutfit{
+        font-size: 150%;
+        display:flex;
+    }
+ 
+}
+
+@media only screen and  (min-width: 801px) and (max-width: 1200px){
+     /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .cont-div{
+        display:flex;
+    }
+    .con_integrante{
+        display:flex;
+    }
+    .integrante p{
+        font-size: 90%;
+    }
+    .integrante img{
+        width: 80%;
+        height: auto;
+     }
+     .div-texto{
+        font-size: 100%;
+    }
+    .reoutfit{
+        font-size: 220%;
+        display:flex;
+    }
+}
+
+@media only screen and  (min-width: 1201px){
+    /* For desktop: */
+    .col-x-1 {width: 8.33%;}
+    .col-x-2 {width: 16.66%;}
+    .col-x-3 {width: 25%;}
+    .col-x-4 {width: 33.33%;}
+    .col-x-5 {width: 41.66%;}
+    .col-x-6 {width: 50%;}
+    .col-x-7 {width: 58.33%;}
+    .col-x-8 {width: 66.66%;}
+    .col-x-9 {width: 75%;}
+    .col-x-10 {width: 83.33%;}
+    .col-x-11 {width: 91.66%;}
+    .col-x-12 {width: 100%;}
+    .integrante p{
+        font-size: 120%;
+    }
+    .integrante img{
+        width: 40%;
+        height: auto;
+     }
+         .cont-div{
+        display:flex;
+    }
+    .con_integrante{
+        display:flex;
+    }
+    .div-texto{
+        font-size: 120%;
+    }
+    .reoutfit{
+        font-size: 300%;
+        display:flex;
+    }
+}
