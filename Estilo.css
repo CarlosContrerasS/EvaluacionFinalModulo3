@@ -112,6 +112,7 @@ main ul{
 
 .cont-div{
     margin-top: 20px;
+    padding: 10px 10px 10px 10px;
 }
 .aside{
     height: auto;
@@ -144,6 +145,69 @@ footer h4{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+.divinicio{
+    height: 150px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: #ff0000;
+    background-image: url("./fondo\ -\ copia.jpg");
+    height: 200px;
+    
+}
+.fondoM{
+    background-color: whitesmoke;
+}
+.link-nav1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    font-weight: 500;
+    color: #c00000;
+    margin: 10px 0px;
+}
+.link-actual-nav1{
+    color: gray;
+    margin: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: end;
+} 
+a:hover{
+    background-color: gray ;
+    color: white;
+}
+.divMenchoy{
+    float: right;
+    width: 50%;
+    padding: 50px 10px 10px 10px;
+}
+.divNosotros{
+width: 50%;
+float: left;
+text-align: center;
+padding: 10px 10px 80px 20px;
+}
+body p{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#footer{
+    background-image: url("./fondo\ -\ copia.jpg");
+    color: gray;
+} 
+#footer h1{
+    color: #ff0000;
+}
+
+/*
+Prueba 
+*/
 
 
 
