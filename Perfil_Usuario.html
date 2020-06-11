@@ -7,19 +7,20 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <link rel="stylesheet" href="http://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
     <script src="http://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-    <script src="cambiar imagen.js"></script>
+    <script src="Perfil_Usuario.js"></script>
     <title>Mi Perfil</title>
 </head>
 <body>
     <main>
         <h1> Información Personal</h1>
+        
         <br><br><br>
         <section>          
             <div id = "imagen">
                 <img class="avatar" id="avatar" src="./img/usuarios/11.png" />
             </div>
             <div>
-               <p id="username" class="username"> <h1> Jacob Vega</h1></p>
+               <h1 id="username" class="username"> Jacob Vega</h1>
                 <br><br>
             </div>
         </section>
@@ -32,19 +33,19 @@
                 </li>
                 <li> 
                     <i class="icon telefono"></i>
-                    <a id="telefono" href="#"> +56 9 1235 6891</a></li>
+                    <a id="telefo" href="#"> +56 9 1235 6891</a></li>
                 <li>
                     <i class="icon pago"></i>
                     <a id="pago" href="#"> Visa Master Plop</a></li>
                 <li>
                     <i class="icon pedidos"></i>
-                    <button id="historial"> Historial</button></li>
+                    <button id="historial" class="historial"><strong> Historial</strong></button></li>
             </ul>
           
         </section>
         <br>
 
-        <button id="actualizar" name= "actualizar"> actualiza datos </button>
+        <button id="actualizar" name= "actualizar" class="actualizar"> <strong>Actualizar Datos </strong></button>
 
         <div id="popup" style="display: none;">
             <div class="content-popup">
@@ -110,12 +111,12 @@
                 <div class="close"><a href="#" id="close2"><img src="./img/close.png"/></a></div>
                 <div>
                     <h2>Actualice los datos personales</h2>
-
+                    <h4>Cierre la pestaña cuando termine</h4>
                     <section>          
                         <div id = "imagen">
                             <img class="avatar" id="avatar2" src="./img/usuarios/11.png" />
                             <br><br>
-                            <button> <p>Avatar:
+                            <button class="avatar2"> <p><strong>Avatar: </strong>
                                     <select id="escoger" name="escoger">
                                         <option id ="numero1" value="1" name="numero1">Imagen 1</option>
                                         <option id ="numero2" value="2" name="numero2">Imagen 2</optio<n>
@@ -163,9 +164,6 @@
                  
                      <div id="error"></div>
                      <br>
-                     <div>
-                        <button id="guardar" name="guardar" >Guardar cambios</button>
-                    </div>
                      </form>
                     <div style="float:left; width:100%;"></div>
                 </div>

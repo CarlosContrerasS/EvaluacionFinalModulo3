@@ -1,4 +1,9 @@
-var img;
+var img = "";
+var nombre = "";
+var mail = "";
+var telefono = "";
+var pago = "";
+
 $(document).ready(function(){
   
     $("#escoger").click(function(){
@@ -72,7 +77,6 @@ $(document).ready(function(){
     }
  
       $("#avatar2").attr("src",img);
-      $("#avatar").attr("src",img);  
     
   });
 
@@ -102,22 +106,25 @@ $(document).ready(function(){
 $('#close2').on('click', function(){
   $('#popup2').fadeOut('slow');
   $('.popup-overlay2').fadeOut('slow');
-  return false;
-});
 
-$("#guardar").click(function(){
-  //$("#avatar").attr("src",img);
-  var nombre =$("#nombre").val();
-  var mail =$("#email").val();
-  var telefono =$("#tel").val();
-  var pago =$("#mpago").val();
+    nombre =$("#nombre").val();
+    mail =$("#email").val();
+    telefono =$("#tel").val();
+    pago =$("#mpago").val();
+
+  if (nombre =="" || mail =="" || telefono == "" || pago == ""){
+    alert ("Faltaron valores por ingresar, no se actualizaran los datos")
+  }else {
     
+    $("#username").text(nombre);  
+    $("#mail").text(mail);  
+    $("#telefo").text(telefono);  
+    $("#pago").text(pago); 
+    $("#avatar").attr("src",img);
+    
+  }
+  return false;
   
-  $("#username").text(nombre);  
-  $("#mail").text(mail);  
-  $("#tel").text(telefono);  
-  $("#pago").text(pago);  
- 
 });
 
 });
