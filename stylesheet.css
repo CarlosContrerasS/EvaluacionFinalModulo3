@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+}
+header{
+    background: #5176b8;
+    font-size: 200%;
+    text-align: center;
+    color: mintcream;
+    padding: 2% 0%;
+    margin: 0% 0%;
+}
+main{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#container-menu{
+    float: left;
+    height: 100%;
+    width: 300px;
+}
+#container-menu h3{
+    color: slategray;
+    font-size: 100%;
+    text-align: center;
+}
+.icon{
+    fill: slategray;
+    transition: background-color .5s;
+}
+.icon :hover{
+    fill: forestgreen;
+}
+#container-plato{
+    justify-content:space-between;
+    float: left;
+
+}
+.plato{
+    width: auto;
+    float: left;
+    padding: 2px;
+    margin: 0px 1px 1px 1px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #425B7D;
+}
+.plato h3{
+    padding: 0%;
+    margin: 1% 0% 2% 0%;
+}
+.plato img{
+height: auto;
+width: 90%;
+transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(0);
+}
+  /* The Transformation */
+.plato:hover img {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+.ver-mas{
+    color: slategray;
+    font-weight: 300;
+    font-size: small;
+    text-align: left;
+    padding: 0%;
+    margin: 1% 0% 2% 0%;
+}
