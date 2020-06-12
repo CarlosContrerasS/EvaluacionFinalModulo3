@@ -157,23 +157,30 @@ transition: transform .5s, filter 1.5s ease-in-out;
     margin: 1% 0% 2% 0%;
 }
 footer{
-    width: 100%;
-    height: auto;
     background-image: url("./img/fondo - copia.jpg");
     color: gray;
-    padding: 5%;
+    text-align: center;
+    
+    padding: 3% 5% 10% 0%;
 } 
 footer h1{
     color: #ff0000;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
 }
+#cont-footer{
+    display: flex;
+    justify-content: center;
+}
 #footer1{
     float: left;
+    margin: 0% 3% 0% 3%;
 }
 #footer2{
     float: left;
+    margin: 0% 3% 0% 3%;
 }
 #footer3{
     float: left;
+    margin: 0% 3% 0% 3%;
 }
