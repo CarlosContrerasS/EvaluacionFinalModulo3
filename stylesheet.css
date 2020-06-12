@@ -9,6 +9,16 @@ header{
     padding: 2% 0%;
     margin: 0% 0%;
 }
+.divinicio{
+    height: 150px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: #ff0000;
+    background-image: url("./img/fondo - copia.jpg");
+    height: 200px;
+    
+}
 main{
     margin-top: 20px;
     width: 100%;
@@ -25,12 +35,83 @@ main{
     font-size: 100%;
     text-align: center;
 }
+#ingredientes{
+    align-items: center;
+    margin: 5% 5%;
+    font-family: 'Kaushan Script', cursive;
+}
+.pollo{
+    float: left;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 1% 1%;
+}
+.pollo h4{
+    padding-top: 0%;
+    margin: 1% 0%;
+}
+.carne{
+    float: left;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 1% 1%;
+}
+.carne h4{
+    padding-top: 0%;
+    margin: 1% 0%;
+}
+#camaron{
+    float: left;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 1% 1%;
+}
+#camaron h4{
+    padding-top: 0%;
+    margin: 1% 0%;
+}
+#aji{
+    float: left;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 1% 1%;
+}
+#aji h4{
+    padding-top: 0%;
+    margin: 1% 0%;
+}
+#vegetariano{
+    float: left;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 1% 1%;
+}
+#vegetariano h4{
+    padding-top: 0%;
+    margin: 1% 0%;
+}
 .icon{
     fill: slategray;
     transition: background-color .5s;
 }
 .icon :hover{
-    fill: forestgreen;
+    fill: red;
+}
+.categoria{
+    font-family: 'Kaushan Script', cursive;
+    margin: 10% 5%;
+}
+.categoria h2{
+    text-align: center;
+    margin: 10% 0% 3% 0%;
+}
+.categoria button{
+    align-self: center;
 }
 #container-plato{
     justify-content:space-between;
@@ -41,10 +122,11 @@ main{
     width: auto;
     float: left;
     padding: 2px;
-    margin: 0px 1px 1px 1px;
+    margin: 2% 1% 5% 1%;
     align-items: center;
     align-content: center;
     text-align: center;
+    align-self: center;
     color: #425B7D;
 }
 .plato h3{
@@ -62,6 +144,9 @@ transition: transform .5s, filter 1.5s ease-in-out;
     filter: grayscale(100%);
     transform: scale(1.1);
   }
+.plato button{
+    background-color: seagreen;
+}
 .ver-mas{
     color: slategray;
     font-weight: 300;
@@ -69,4 +154,13 @@ transition: transform .5s, filter 1.5s ease-in-out;
     text-align: left;
     padding: 0%;
     margin: 1% 0% 2% 0%;
+}
+footer{
+    background-image: url("./img/fondo - copia.jpg");
+    color: gray;
+} 
+footer h1{
+    color: #ff0000;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
 }
