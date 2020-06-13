@@ -227,3 +227,41 @@ footer h1{
     margin: 0% 3% 0% 3%;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* PRUEBA NAV BAR*/
+.navbar {
+    float: right;
+    overflow: hidden;
+    background-color: #232323;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    
+  
+  }
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+.logo{
+    float: left;
+    padding-left: 3%;
+}
+.link-nav1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    font-weight: 500;
+    margin: 10px 0px;
+}

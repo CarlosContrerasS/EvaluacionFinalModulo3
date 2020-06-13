@@ -1,3 +1,89 @@
+.fondoM{
+    background-color: whitesmoke;
+}
+.divinicio{
+    height: 150px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 90px;
+    color: #ff0000;
+    background-image: url("fondo - copia.jpg");
+    height: 500px;
+}   
+.divinicio p{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    font-size: 60px;
+}
+.link-nav1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    font-weight: 500;
+    color: #c00000;
+    margin: 10px 0px;
+}
+.link-actual-nav1{
+    color: gray;
+    margin: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: end;
+} 
+a:hover{
+    background-color: gray ;
+    color: white;
+}
+/* PRUEBA NAV BAR*/
+.navbar {
+    float: right;
+    overflow: hidden;
+    background-color: #232323;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    
+  
+  }
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+.logo{
+    float: left;
+    padding-left: 3%;
+}
+
+#footer{
+    background-image: url("./img/Carro_de_compras/fondo\ -\ copia.jpg");
+    color: gray;
+} 
+#footer h1{
+    color: #ff0000;
+    font-family: 'Kaushan Script', cursive;
+}
+body p{
+	font-family: 'Montserrat', sans-serif;
+    
+}
+body h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
 main{
     text-align: center;
 }
@@ -126,4 +212,43 @@ a{
     text-align: center;
     vertical-align: middle;
     border-color: #007bff;
+}
+.redes-flotantes {
+    position: fixed;
+    right: 3%;
+    top: 85%;
+    z-index: 20;
+  
+    }
+   
+footer{
+    background-image: url("./img/fondo - copia.jpg");
+    color: gray;
+    text-align: center;
+    
+    padding: 3% 5% 10% 0%;
+} 
+footer h1{
+    color: #ff0000;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+#cont-footer{
+    display: flex;
+    justify-content: center;
+}
+#footer1{
+    float: left;
+    margin: 0% 3% 0% 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+#footer2{
+    float: left;
+    margin: 0% 3% 0% 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+#footer3{
+    float: left;
+    margin: 0% 3% 0% 3%;
+    font-family: 'Montserrat', sans-serif;
 }
